@@ -2,6 +2,8 @@
     "name": "chaungoclong/pdfplumber-php",
     "description": "pdfplumber proxy for PHP",
     "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Chaungoclong\\PdfplumberPhp\\": "src/"
