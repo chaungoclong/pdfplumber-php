@@ -1,0 +1,20 @@
+{
+    "name": "chaungoclong/pdfplumber-php",
+    "description": "pdfplumber proxy for PHP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Chaungoclong\\PdfplumberPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chau Ngoc Long",
+            "email": "longcn@i.lisod.vn"
+        }
+    ],
+    "require": {
+        "symfony/process": "^6.0"
+    },
+    "bin": ["bin/pdf.py"]
+}
